@@ -15,12 +15,11 @@ function App () {
             <Router>
                 <Header />
                 <div className="container">
-                <Navigate to="/" />
-
                     <Routes>
                         <Route exact path='/' element={
 
                                 <>
+                                    <Navigate to="/" />
                                     <FeedbackForm  />
                                     <FeedbackStats />
                                     <FeedbackList  />

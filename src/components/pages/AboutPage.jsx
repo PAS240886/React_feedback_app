@@ -6,7 +6,7 @@ function AboutPage ()  {
         <Card>
             <div  className="about">
                 <h1>Just a simple React Router example</h1>
-                <Link to="/">Homepage</Link>
+                <Link to="/React_feedback_app">Homepage</Link>
             </div>
 
         </Card>
